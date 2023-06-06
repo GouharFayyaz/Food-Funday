@@ -1,0 +1,145 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgb(29, 28, 28);
+    background-image: none;
+    height: 70px;
+  }
+
+  .navbar > ul {
+    display: none;
+  }
+
+  #section1 {
+    height: 650px;
+  }
+
+  .room1 {
+    top: 250px;
+  }
+
+  .room1 > h1 {
+    font-size: 270%;
+  }
+
+  .room1 > .friends {
+    font-size: 270%;
+    left: 450px;
+    top: -20px;
+  }
+
+  .room1 > h2 {
+    font-size: 180%;
+    top: -20px;
+  }
+
+  .room1 > p {
+    font-size: 110%;
+    top: 5px;
+  }
+
+  .room1 > button {
+    left: 280px;
+    overflow: hidden;
+    height: 55px;
+    width: 195px;
+  }
+
+  .wc {
+    height: 80px;
+    width: 40px;
+    top: 25%;
+  }
+
+  .round {
+    left: 12px;
+  }
+
+  #section2 {
+    /* flex-direction: row; */
+    height: 950px;
+    /* flex-direction: column; */
+  }
+
+  .roombig {
+    width: 100%;
+  }
+
+  .room2 {
+    top: 5%;
+  }
+
+  .room2 > h1 {
+    bottom: 50px;
+  }
+
+  .room3 {
+    width: 90%;
+  }
+
+  .room3 > p {
+    left: 7%;
+  }
+
+  .picdiv {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+  }
+
+  .cards3 {
+    width: 95%;
+    margin-left: 9px;
+  }
+
+  .slider1 {
+    width: 250%;
+  }
+
+  @keyframes slide5pic {
+    0% {
+      left: 0%;
+    }
+    25% {
+      left: 0%;
+    }
+    50% {
+      left: -50%;
+    }
+    75% {
+      left: -50%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+
+  .slider2 {
+    height: 1000px;
+  }
+
+  .slidding3 {
+    width: 25%;
+  }
+
+  .l1 > h2 {
+    font-size: 17px;
+  }
+
+  .l1 {
+    height: 110px;
+    width: 160px;
+    left: 0px;
+  }
+
+  .room8 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 320px) {
+}
